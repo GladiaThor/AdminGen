@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[386, 300]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[386, 300]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[386, 300]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="366" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="pName" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="anonCB" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="course" alignment="0" pref="170" max="32767" attributes="0"/>
+                          <Component id="fak" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pMail" max="32767" attributes="0"/>
+                          <Component id="pFunc" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="pNumb" max="32767" attributes="0"/>
+                          <Component id="pTel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="inst" alignment="0" max="32767" attributes="0"/>
+                          <Component id="topic" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="anonCB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pFunc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pNumb" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="pTel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fak" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="inst" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="course" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="topic" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="pName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F&#xf6;r- Efternamn"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;pName&quot;, &quot;F&#xf6;r- Efternamn&quot;, true)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pFunc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;pFunc&quot;,&quot;Position&quot;, true)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pNumb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Personnummer (YYMMDD-NNNN)"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;pNumb&quot;,&quot;Personnummer (YYMMDD-NNNN)&quot;, true)&#xa;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pMail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="E-Post"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;pMail&quot;,&quot;E-Post&quot;, true)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pTel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefonnummer"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;pPhone&quot;,&quot;Telefonnummer&quot;, true)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="anonCB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anonymt"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anonCBActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kontaktuppgifter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;rendet ber&#xf6;r:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fak">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fakultet/Sektion"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;fak&quot;,&quot;Fakultet/Sektion&quot;,true)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="inst">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Institution/K&#xe5;rorganisation"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;inst&quot; ,&quot;Institution/K&#xe5;rorganisation&quot;, false)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="course">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kurskod"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;course&quot;,&quot;Kurskod&quot;, false)"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="topic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Omr&#xe5;de"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTFAdvanced(&quot;topic&quot;,&quot;Omr&#xe5;de&quot;, true)"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="desc">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new JTAAdvanced(&quot;desc&quot;,&quot;F&#xf6;rklara de problem som beh&#xf6;ver utredas&quot;, true)"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Beskrivning"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
