@@ -1,4 +1,4 @@
-# AdminGen
+# GATCAT/AdminGen
 Quick filling PDF from an SQL server to assist in administration work (Designed for my job at the time and it really cut my work by 20%)
 <br> It is super modular and With very little tweaking it can work for any form and any DB stucture. 
 <br> I have also commented it to hell and back so it should be super easy to read =) 
