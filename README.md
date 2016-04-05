@@ -4,6 +4,8 @@ Quick filling PDF from an SQL server to assist in administration work (Designed 
 <br> I have also commented it to hell and back so it should be super easy to read =) 
 <br> Feel free to use it all you want under the license agreement. 
 
+<br> the connection setting are in Settings/DBSettings.txt
+
 
 This software is licensed as follows:
 <br>Clause 0.) You can use this program for anything
